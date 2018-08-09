@@ -13,10 +13,9 @@ class Route:
     first coordinates are being picked accoding to voronoi tesseletion
     """
 
-    def __init__(self, from_name, to_name, centroid, requested_area,
+    def __init__(self, route_name, centroid, requested_area,
                  current_area, coordinates ):
-        self.from_name = from_name
-        self.to_name = to_name
+        self.route_name = route_name
         self.centroid = centroid
         self.requested_area = requested_area
         self.current_area = current_area
